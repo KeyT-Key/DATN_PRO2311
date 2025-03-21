@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail Page</title>
+    <link rel="stylesheet" href="/Product_information.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="product-details">
+            <!-- Product Grid -->
+            <div class="grid-2">
+                <!-- Left Column - Images -->
+                <div class="img-section">
+                    <div class="main-img">
+                        <img src="https://via.placeholder.com/500x500" alt="Product" id="mainImage">
+                    </div>
+                    <div class="thumbs">
+                        <div class="thumb">
+                            <img src="https://via.placeholder.com/100x100" alt="Thumbnail 1">
+                        </div>
+                        <div class="thumb">
+                            <img src="https://via.placeholder.com/100x100" alt="Thumbnail 2">
+                        </div>
+                        <div class="thumb">
+                            <img src="https://via.placeholder.com/100x100" alt="Thumbnail 3">
+                        </div>
+                        <div class="thumb">
+                            <img src="https://via.placeholder.com/100x100" alt="Thumbnail 4">
+                        </div>
+                        <div class="thumb">
+                            <img src="https://via.placeholder.com/100x100" alt="Thumbnail 5">
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Right Column - Product Details -->
+                <div class="details-section">
+                    <div>
+                        <h1 class="product-name">Ví nam Playboy, Bóp nam nhỏ gọn DONANA da PU</h1>
+                        <div class="rating">
+                            <div class="rating-value">
+                                <span class="rating-number">4.7</span>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                            <span class="reviews">1.7k Đánh Giá</span>
+                        </div>
+                    </div>
+                    <!-- Variants -->
+                    <div class="variants">
+                        <div>
+                            <h3 class="variant-label">Loại</h3>
+                            <div class="variant-options">
+                                <button class="variant-btn">
+                                    Play boy kẻ đen
+                                </button>
+                                <button class="variant-btn">
+                                    Play boy kẻ nâu
+                                </button>
+                                <button class="variant-btn">
+                                    Play boy trơn đen
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Quantity -->
+                    <div class="quantity">
+                        <h3 class="quantity-label">Số Lượng</h3>
+                        <div class="quantity-controls">
+                            <button class="qty-btn" id="decreaseBtn" aria-label="Giảm số lượng">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                            <input type="number" value="1" min="1" class="qty-input" id="quantityInput" aria-label="Số lượng">
+                            <button class="qty-btn" id="increaseBtn" aria-label="Tăng số lượng">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+    
+                    <!-- Action Buttons -->
+                    <div class="action-buttons">
+                        <button class="add-to-cart">
+                            <i class="fas fa-cart-plus mr-2"></i>
+                            Thêm Vào Giỏ Hàng
+                        </button>
+                        <button class="buy-now">
+                            Mua Ngay
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
